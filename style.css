@@ -1,0 +1,108 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FFF4EE;
+  color: #2B2522;
+  margin: 0;
+  padding: 40px 16px;
+}
+
+.app {
+  max-width: 480px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 32px;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.subtitulo {
+  color: #74685F;
+  margin-top: 4px;
+}
+
+.formulario {
+  display: flex;
+  gap: 8px;
+  margin-top: 24px;
+}
+
+#campoTarefa {
+  flex: 1;
+  padding: 12px;
+  font-size: 16px;
+  border: 1.5px solid #CFC3BA;
+  border-radius: 12px;
+}
+
+#campoTarefa:focus {
+  outline: none;
+  border-color: #EB6A33;
+}
+
+#botaoAdicionar {
+  padding: 12px 18px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #EB6A33;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+#botaoAdicionar:hover {
+  background-color: #C9531F;
+}
+
+#listaTarefas {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 0;
+}
+
+#listaTarefas li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFF4EE;
+  padding: 14px 16px;
+  border-radius: 12px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+#listaTarefas li.feita {
+  text-decoration: line-through;
+  color: #A39488;
+  background-color: #F5F1EE;
+}
+
+.botaoApagar {
+  background: none;
+  border: none;
+  font-size: 22px;
+  color: #A39488;
+  cursor: pointer;
+  padding: 0 4px;
+}
+
+.botaoApagar:hover {
+  color: #C23B32;
+}
+
+#contador {
+  color: #74685F;
+  font-size: 14px;
+  margin-top: 20px;
+}
