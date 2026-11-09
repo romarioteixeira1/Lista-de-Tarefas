@@ -87,6 +87,9 @@ h1 {
   color: #A39488;
   background-color: #F5F1EE;
 }
+#listaTarefas li.feita span {
+  text-decoration: line-through;
+}
 
 .botaoApagar {
   background: none;
